@@ -1,0 +1,23 @@
+/*Kis képernyőre!*/
+
+@media screen and (max-width: 1080px){
+    
+    .middle_wide{ /*Fontos előre!*/
+        display: none;
+    }
+
+    .middle_small{
+        position: relative;
+        height: 405px;
+        padding-top: 330px;
+    }
+}
+
+/*Nagy képernyőre!*/
+
+@media screen and (min-width: 1081px){
+    
+    .middle_small{ /*Fontos előre!*/
+        display: none;
+    }
+}
